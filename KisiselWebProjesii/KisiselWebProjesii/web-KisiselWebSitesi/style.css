@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    background-image: url(maxresdefault-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 600px;
+    background-color: rgba(128, 0, 128, 0.3);
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+    .center .avatar img {
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        margin: 0 auto;
+        display: block;
+    }
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    color: wheat;
+    margin-bottom: 10px;
+}
+
+.content h2,
+.content p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.content h3 {
+    margin-top: 20px;
+}
+
+div.social {
+    margin-top: 20px;
+}
+
+    div.social i {
+        padding: 0 10px;
+        font-size: 35px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+        div.social i:hover {
+            color: rgba(255, 255, 255, 1);
+            transition: 0.4s;
+        }
+
+@media screen and (max-width: 700px) {
+    .center {
+        width: 300px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    div.social i {
+        font-size: 30px;
+    }
+}
